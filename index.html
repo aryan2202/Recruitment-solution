@@ -1,0 +1,274 @@
+<html>
+  <head>
+    <meta name="description" content="Hello this is my first web page!." />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Digital recruitment solution</title>
+    <link rel="icon" href="https://cdn1.vectorstock.com/i/1000x1000/27/10/recruitment-icon-digital-blue-vector-24222710.jpg">
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="navbar__brand">
+          
+          <img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAnFBMVEX///8AtMcAAABkY2O0tLQAsMSGhoZ9fX2AgICDg4PDw8NXV1cYucun3uas4egArsPA6O1OxNL5+fmtra2Wlpbk5OT09PTKysrW1tbW7vKy4Oju7u61tbXd3d2cnJyNjY2lpaVxcXHQ0NBVVFR6zdnL6e9axtRubW1nZmZKSko4ODjy+/wUFBQfHx9OTk4oKChBQUEwMDCM1eDh9ffnY354AAAMiklEQVR4nO2d63qbOBCGsY2FhJOm4dyKk+02aZtutpvc/72tRhIgAY6dNCDaR9+PjS3A1WuNRjMjLziOlZWVlZWVlZWVlZWVlZWVldVfLXqqPfXTk8em6swkouVYa4yPu93u6BVjB+s/i9CJomGb/7gROvrDg2U1fafeVfQ76jcVx02jx6x/sPoez9Ox91O183ot95tO33rH8G7whSxe8XFzn6gN2U4h3B3UQ8H95jg6N5ctwkBU5xFqhLVyhH7bbPoD/icoY9Nup4xMuVGl+Np4MKZ/ivZ6z+sThNx670108LeV7rSFwdes1NfO2o0sH4vTyHr9ja99rnwXaISNE8ofx1wrnD5VR98sb9glMWrHWr5VXE3raEK+Ru7y4ectb2LmP4ZtEqcJb0iD2C6VpWjZDS9NF7h6rPeDJlcCEPm+PPJJd2yQK3k8HFyZhcuzUme3HkTbwbEZM9nfuPbuvbqJz7xdb1K2isMluh53vR50q27s8tsAwknaKG7wzdDQXaCROnS9Xvf7RTvn0g+saXvk2HfDgeuGw29kAfrOEPsdizr3qdPHHfsgbcpdd8S5LkA1I+w7VHrshkr1/0oYvuuPru+67iC7WoTATNebXiPqVnkl70078EHMfQiZkS403/8BiL08r1AimWOzKuQK4LE3XAUDXKiRskkHhGtXb/Q6mCaUqRXATW8VpQDoLi+gESo44Vrv3kELR8GrRFpLqp2dcMClGqnj/BSIev/2GxWIBEgF3PTmbe5yzdjn1wkJwn+0iMvXiXT10iZfAOrjuiRlgnD9XWt9AbA3hKkADBdcdpOEehCenx5EPebOQkk4b6dfpX2DqIaawQtGqtpzLAHdJUbdjfyGUAvCw1ODqFXckgYwXGLU3aolXCtzKTmeIFRj7sBttLTU8PCN4Tw2U2fTISpBeHmCUN3byFvCZvhj3w3dkztVs6lB+leMWd4RKkE4HTfTozLOfgvYpIa+sFrTufCvjoh/2Un3Xg3Cq1FCJYQ9hJ2RisHvxtRokBopQL94y6PS0hHEYzNR2aooOkAJlHYNJqPUYK2KRyK12tItbGSEsFs0qQIoUsNEbTHoenyNkCd6VGtqv/1sOIhdwV/H4dZeuGqTueVDGzBppj+0ttaX7AeE3VZFruIMjdSkmeqEwnlGWtvPxsDSvjvtYm5/hGYphKFGIwal0Nq6IPy+P4bNAR1GpoaZ1miuaqNPOulXfuqIjT/pJVHtVkUWajAyNaTDqWlGO5VFGmSlE66bwKVnpLI17gE2qaE6N02u+eogNv049AibA65WvJADTnuAbWpIByGAIXWzrm7b+oSyEj62fxi4PXUraDu4pos2icch1J9S4AGiwKkVRJk/5n1CpX4RpG4YstDbfKYRZH6q2FFQ/jsg/I8fUeJvmTb5fUA3z1QgSo1nFgNl+wEeSPiVbhNDbFUcwgEhM0rz+dILyn+N8jHxPdJ2E0PYdDEGCIz5QitRNDqFB+IupNnEwPz8E4DA6GbL2107bF7iW4sgXG5i8K2K5DQgh/SXZazhf2f41iJDFpsYPMwZuNGhsS6mIhWj83hrEYTzTQy+VTF0o2OQhyUYa7o7DycEQTjE3/DzoPQ8njRWw14nqP+5lG/Ng3AWf0Pa1A+3XzTWzNyaX3ivwAOV/Jdgw3D7HKShJdL//kq+NQTh+TF8aZ1YjrEm5evxQIXzGAzC7YsY3VmNNfv2Nj6mpDi/TpxgnG+JLPa/Hndv1PHeOfhv16JjVisrKysrKysrKysrq5Na3XT6eOKcW+Wca95yffOStqur27unD58e5sN4QVerVtuThMo5gvDDdnVG2+32Znt7vQDIqQjl6aun+VBOaFpCYPw0H8yopiZ84WNn0vSEqxuzozgD4Wpl1N/MQbi9m49nqPck3AoNDxi1098nvPrS6E7o9mrVwzQ6iL9PeDtyxfNTD9HgTJyG0HEerlTG7YeJun+BpiJ0HrRB/DJN7y/RZITOR3UQrybp/EWajtDRBnGKvl+mCQnvlJO2U/T9Mk1I+EUZwr+f8O+30r+TUB3CkydNrwlXixvlMoOp/nSEyievtl8n6fxFUgmvP43q+U2EykUrk9NQ/6ZPVAfVUy4k/KzxmTRSjfACjWVPn75KfWb6cP30dMfSJ/0yg4DvQNgkvop6F50sNf8phOd0Y7ZmOj2h2SrNDIRGvcwMhDdXpkvekxJub64M17tBGuHQK/Zd4+WEN9urp2fDcFwq4dPncWlxD7/qPOHd8wI21rjeoSJ8e3t1xdb4G416e/f3EMqo7eHr00qPAz7PQ3BO75pbfNGG8cZgCVHR+2ZP+vzcGsx7O71zfni9PMT3zoCfev5m4u5foHfP8W91RNMx2wSE+n7F6sZg/ULo/es0H3vRgOl1cYJK1JdleZspam16NC9/KGZMUxA+q7Urdo3ZAHySeum1hmjYTqepCPeWDKN2Og3hw3J+qDBVVf/jcvzpVPsWdzqiwUxqsp0ZzUxN2ulkhF/1qWguBJ9ud62XZRiruk24B9wrVJqy0wkJn5dhpxMS9kIbUztQUxL2QhtDu4i//3+UvPCTtQd9V3kBJQ0rKysrKysrKysrKysrXbUnhMvX3vE+3nu14wRJ8rob6L36gt9VSBDBGBOEvFc+QCT2cOg4vue97rFcxd6b9yFQISFuylQS5L3uHqq0LH3HSTF+3eAXmMz7LJaQYPG4ggphfivcoMjaW+LCa25SQcD+ZFT8dZo/IJ+QVLYk/GR2TfNN0SwTtw7k5xcZv+llhsm8T5trCeWLHIPE/fO718irEuT5TuXtE/52L+chxgjhfZKw177HTo4P7L8ev5xW8LKE89llMXvHPsSJPITIfs7bCreEEfLYd5x7CHtYzElXvvZhgKOKsBeRMOUKeYwQk9ApK4SqKgk8RJi3Yp3HHkOAT6K8iRASwGeLw6R2QrggmvMWpmwe+nFRFOxvxLuFYieuAES8PmCEAQnhMsyGhHIeJuzL8J2C+asoSUoEM60mOA8Sl8BrRljF7FR52dzzkPtSTEjNvmwf8xHNME7ZDMMww0pmYQyJcMsbJUw5Idx9vuRzOQOGACP+NAwEByKEY/7aM+JpmCkyEVRRPqJw29yaOVgYhPYWowwpOEMIPDXxqGRgFhDBzVj5leplJnzpIUkSyqBK6CIS6z9zIqK7byWMMUw9+Cjmm0wTck9DmZtgzoW9i7koHAHT4jGIQhhcRsjGsKbio5xlEAZsPrbrd1IUFFY6mHtyHqpjyDzn0NP0CB3CZ6bDnNhyCDFbtNlIHmiBgArc/YH6fGwbQuYm2chESCUkOR0jhClNaehB8KoTssGdMzJt10MRtaXKesjXRtZcdISpWOQUKy1Yyx7Wwz5hgAgBF40CnRAWoVlX/Nrbi7iSjRsY5YEwN0NEMJ1iiEMKcVB87SFrQSw+aWIaiFdETMNXCxh7JxOxdVJCTFPLmIY6MhRi/yKelXAoGtPR10LBoGV4TnfuaOySnLzAysrKysrKai6xhGAJzy2aSoHrQaiFBgXCQIRlWhMv7bJ4LeqfvGAFFWT8mAyrwzK0VuV6+wzyJlLO1b13EEuVqozGLubVMlUjhDmBokxSlvOWP39PpawK154cxESWcRtCWQnmf/Im73KaU4vmaFf/FVXl5UzsCIkSPT0cgDSA/EeUhAXhYc/JU9irYJkjwvtAzsOg5qfy7wXyZwR5FwD70OzV5p/PKQSFt+6ZjAGBuhRGsAEjCDPMCxu8NhNVCEURZPcwDxGfwAjXjiiuQvGOlwBERk2W4o0g/ybMdYinMYWElNQpEGT5Q8JmHnLCHKNInJpxQvZGlD8iRGKHVni/lGdZxhF4UkZZO1DXgIo8YIXnCNmowVwrMKn5Hg/P6KG0VSHCTqLpgh7ymBzCCnZbahhQvg4EzMGeIUwaT+spZasKCENmuahOl+NqhIqIIQYxHxBH1AVfJmy+DBhLnRCqMoQIm1iC6lA6PTahaNNtPkBvHUN2Qlozo8Dz1khPqiJyyxrGsJlcKWxptoTQ05D056GcegdeYFQIkzyHNbNozMG4mP/DfkyLkm9iMAdZFTTlAY4gLNgMLaBILAiJTyWhz089aMVVTugRfKDUJ2TevfvTKjHsccLM4WVO0paHZUzj8aWu4oQp7L0Ecj2MsDgVIjjN03hibfQW40t9BLmFJ5/yHsIuFE80ZG5RQI04T/dQPA5gm6qJaRxISmQlWZaPiec5UDiHD5x10/ecklgt2A7KvTQOlNeJ88KpbXu8lJjNysrKysrKysrKysrKysrKag79D4efEb9iNPxpAAAAAElFTkSuQmCC"
+            alt="logo"
+            class="brand__logo"
+          />
+        </div>
+
+        <div class="navbar__nav__items">
+          <div class="nav__item">
+            <div class="dropdown__container">
+              <i class="fas fa-globe"></i>
+              <select
+                name="languages"
+                id="languagesSelect"
+                class="language__drop__down"
+              >
+                <option value="english" selected>English</option>
+                <option value="hindi">हिन्दी</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="nav__item">
+            <form action="/login.html">
+              <button class="signin__button">Get started</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero__bg__image__container">
+          <img
+            src="https://www.hrkatha.com/wp-content/uploads/Report-Cover-Image-1.png"
+            class="hero__bg__image"
+          />
+        </div>
+        <div class="hero__bg__overlay"></div>
+
+        <div class="hero__card">
+          <h1 class="hero__title">
+            Digital recruitment<br />
+            Solution
+          </h1>
+          <p class="hero__subtitle">Aimed at providing a seamless</p>
+          <p class="hero__description">
+            Hiring experience for multiple MNCs.
+          </p>
+        </div>
+      </section>
+      <section class="features__container">
+        <!-- Feature 1 -->
+        <div class="feature">
+          <div class="feature__details">
+            <h3 class="feature__title">Digital Recruitment:</h3>
+            <h5 class="feature__sub__title">
+            The Top Guide for HR Professionals (& Tips)
+            </h5>
+          </div>
+          <div class="feature__image__container">
+            <img
+              src="https://swagdrop.com/wp-content/uploads/2022/04/Digital-Recruitment-Blog-Post-Featured-Image.jpg"
+              alt="Feature image"
+              class="feature__image"
+            />
+          </div>
+        </div>
+        <!-- Feature 2 -->
+        <div class="feature">
+          <div class="feature__details">
+            <h3 class="feature__title">
+              Lay the foundation:
+            </h3>
+            <h5 class="feature__sub__title">
+              It has been shown that more than 78% of individuals would research a professional image before trying to get a job.
+            </h5>
+          </div>
+          <div class="feature__image__container">
+            <img
+              src="https://lh3.googleusercontent.com/fAgDlYU4NovDAyXtlcuPF68DDL84wKJTkE5OGjuZPR9e7EF25wyrFx6YKGt_dF9qIvefi7NyP6p8YJOLNsGJ2SRwk2SO2zOU_Uyaz_2gZrahB4Ah3dEyvMfCp5UGMgrdRE11zZsT"
+              alt="Feature image"
+              class="feature__image"
+            />
+          </div>
+        </div>
+        <!-- Feature 3 -->
+        <div class="feature">
+          <div class="feature__details">
+            <h3 class="feature__title">Track your recruitment metrics:</h3>
+            <h5 class="feature__sub__title">
+              Using recruiting software that enables recruitment data monitoring is another part of any effective digital recruitment strategy.
+            </h5>
+          </div>
+          <div class="feature__image__container feature__3__image__container">
+            <img
+              src="https://blog.talview.com/hubfs/shutterstock_1030275937.jpg"
+              alt="Feature image"
+              class="feature__image feature__3__image"
+            />
+          </div>
+        </div>
+        <!-- Feature 4 -->
+        <div class="feature">
+          <div class="feature__details">
+            <h3 class="feature__title">Show that you care:</h3>
+            <h5 class="feature__sub__title">
+              To start with, caring about employees’ mental well-being is essential.<br>
+              This also highly enhances your corporate culture and values, as well-being should be prioritized.
+            </h5>
+          </div>
+          <div class="feature__image__container">
+            <img
+              src="https://lh6.googleusercontent.com/6DMMxKOCq57hPEQnv4OpeywLMgIhKFwAKHpPoarJAFFZBgCtxSZbIPWJgqgz112ci9KDlYVWqIyaPV7GiTFtZ6xgWtWRkqw2CiZsi5f_wsIGxgD2FK_Kr3Lie7jonl7_hK0VYL9F"
+              alt="Feature image"
+              class="feature__image"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="FAQ__list__container">
+        <h1 class="FAQ__heading">Frequently Asked Questions</h1>
+        <div class="FAQ__list">
+          <div class="FAQ__accordian">
+            <button class="FAQ__title">
+              What is Digital Recruitment?<i class="fal fa-plus"></i>
+            </button>
+            <div class="FAQ__visible">
+              <p>
+                Digital recruitment is when human resources and recruiting managers utilize technology to find and employ the ideal candidates for available positions. 
+
+                This is known as social recruitment or online recruitment..
+              </p>
+              <p>
+                Today, finding the best and brightest employees is simpler than ever because of the widespread use of the internet and mobile devices. 
+                <br>
+                According to SHRM, in the next 10 years, half of firms will adopt HR software that provides suggestions and insights based on machine learning and artificial intelligence.
+              </p>
+            </div>
+          </div>
+          <div class="FAQ__accordian">
+            <button class="FAQ__title">
+              What are the Benefits of Digital Recruitment?<i class="fal fa-plus"></i>
+            </button>
+            <div class="FAQ__visible">
+              <p>
+                Did you know that almost 80% of Americans who look for vacancies utilize online tools?
+                <br>
+                Quality candidates are taking advantage of the benefits of internet hiring, and recruiters must do the same.
+                <br>
+                Let’s review the benefits of digital recruitment right below.
+                <br>
+                Benefit #1: Improved efficiency
+                <br>
+                Benefit #2: Better hiring decisions
+                <br>
+                Benefit #3: Reduced long-term costs
+              </p>
+            </div>
+          </div>
+          <div class="FAQ__accordian">
+            <button class="FAQ__title">
+              4 Types of Digital Recruitment Tools?<i class="fal fa-plus"></i>
+            </button>
+            <div class="FAQ__visible">
+              <p>
+                A plethora of innovative digital recruiting technologies are transforming how recruiters locate applicants and even retain them in the talent pipeline, regardless of hiring status.
+
+
+                Today’s technology has the ability to locate the most qualified employees, regardless of where they reside or whether they are seeking a position with your organization or not.
+
+
+                Let’s check out these tools.
+              </p>
+              <p>
+                Type #1: Social media
+                <br>
+                Type #2: Chatbots
+                <br>
+                Type #3: Artificial intelligence (AI)
+                <br>
+                Type #4: Applicant tracking system (ATS)
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="FAQ__get__started__email">
+          <h3>
+            Ready to get started?
+          </h3>
+          <div class="email__form__container">
+            <form action="/login.html">
+              <button class="primary__button">
+                Get Started <i class="fal fa-chevron-right"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer__row__1">
+        <h4>Questions? Call 91+ 732-502-1128</h4>
+      </div>
+      <div class="footer__row__2">
+        <div class="column__1">
+          <p>FAQ</p>
+          <p>Investor Relations</p>
+          <p>Privacy</p>
+        </div>
+        <div class="column__2">
+          <p>Speed Test</p>
+          <p>Help Centre</p>
+          <p>Jobs</p>
+        </div>
+        <div class="column__3">
+          <p>Cookie Preferences</p>
+          <p>Legal Notices</p>
+          <p>Account</p>
+        </div>
+        <div class="column__4">
+          <p>Corporate Information</p>
+          <p>Terms of Use</p>
+          <p>Contact Us</p>
+        </div>
+      </div>
+      <div class="footer__row__3">
+        <div class="dropdown__container">
+          <i class="fas fa-globe"></i>
+          <select
+            name="languages"
+            id="languagesSelect"
+            class="language__drop__down"
+          >
+            <option value="english" selected>English</option>
+            <option value="hindi">हिन्दी</option>
+          </select>
+        </div>
+      </div>
+      <div class="footer__row__4">
+        <p>@digital recruitment solution</p>
+      </div>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
